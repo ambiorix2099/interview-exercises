@@ -12,7 +12,7 @@ public class Exercise1 {
      * @return the reversed string or, if the input parameter was null, a blank string
      */
     public static String reverseString(String stringToReverse) {
-        if (stringToReverse != null && !"".equals(stringToReverse)) {
+        if (stringToReverse != null || !"".equals(stringToReverse)) {
             StringBuilder reversedString = new StringBuilder();
 
             char[] stringAsCharArray = stringToReverse.toCharArray();
