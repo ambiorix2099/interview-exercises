@@ -51,16 +51,14 @@ for a brick 'n mortar zoo, probably interested in recording animal care. In that
 to worry about modeling each physical action that animals are allowed to take, like moving on land, air, or sea.
 
 For fear of getting too lost in the details when answering a design question like this, I'll stick to these high-level design objectives:
-
-      * Clearly identify and model domain objects and any meaningful variations, e.g. Mammal, Reptile, Fish, Amphibian, Bird, etc...
-      * Clearly identify application-level objects and not conflate them and their responsibilities with domain objects (I often see this problem).
-      * Avoid an explosion of classes, and keep business logic simple, by strategically using interfaces to model animal behaviors that don't have to be shared
-        all across the board, as would be the case if class inheritance were heavily relied on for the same. I guess what I'm trying to express here is the
-        principle of "coding to interfaces".
-      * Start with the simplest design possible, then iterate into more complex designs, only as necessary to meet some business or system requirement.
+ * Clearly identify and model domain objects and any meaningful variations, e.g. Mammal, Reptile, Fish, Amphibian, Bird, etc...
+ * Clearly identify application-level objects and not conflate them and their responsibilities with domain objects (I often see this problem).
+ * Avoid an explosion of classes, and keep business logic simple, by strategically using interfaces to model animal behaviors that don't have to be shared
+   all across the board, as would be the case if class inheritance were heavily relied on for the same. I guess what I'm trying to express here is the
+   principle of "coding to interfaces".
+ * Start with the simplest design possible, then iterate into more complex designs, only as necessary to meet some business or system requirement.
 
 Given the above design objectives and my own design sensibilities, I expect that my design would include the minimum set of *perhaps*:
-
    * These classes: Mammal, Reptile, Fish, Amphibian, Bird, etc... each of these classes may contian a `subType` attribute (probably of type `enum`.
    * And these interfaces: ColdBlooded, HotBlooded, Flier, Swimmer, Domesticatable, Tamable, Untamable, etc...
    
