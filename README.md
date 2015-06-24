@@ -61,7 +61,7 @@ For fear of getting too lost in the details when answering a design question lik
 
 Given the above design objectives and my own design sensibilities, I expect that my design would include the minimum set of *perhaps*:
 
-   * These classes: Mammal, Reptile, Fish, Amphibian, Bird, etc... each of these classes may contian a `subType` attribute (probably of type `enum`.
+   * These classes: Mammal, Reptile, Fish, Amphibian, Bird, etc... each of these classes may contian a `subType` attribute (probably of type `enum`).
    * And these interfaces: ColdBlooded, HotBlooded, Flier, Swimmer, Domesticatable, Tamable, Untamable, etc...
    
 ### Coding Task 5
