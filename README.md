@@ -20,7 +20,7 @@ A trio of, perhaps unusual coding quirks of mine:
 ## My Answers to the Coding Tasks
 
 ### Coding Task 1
-Write a function to revers a string.
+Write a function to reverse a string.
 
 My answers are located in
 `com.cybercoders.interview.Exercise1.java` and
